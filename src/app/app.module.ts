@@ -15,6 +15,10 @@ import { FooterComponent } from './shared/footer/footer.component';
 
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
+import { SportComponentComponent } from './sport-component/sport-component.component';
+import { ArtcomponentComponent } from './artcomponent/artcomponent.component';
+import { BooksComponentComponent } from './books-component/books-component.component';
+import { PoliticscomponenComponent } from './politicscomponen/politicscomponen.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { LoginComponent } from './login/login.component';
     ProfileComponent,
     NavbarComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    SportComponentComponent,
+    ArtcomponentComponent,
+    BooksComponentComponent,
+    PoliticscomponenComponent
   ],
   imports: [
     BrowserModule,

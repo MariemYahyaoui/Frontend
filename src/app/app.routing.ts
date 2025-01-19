@@ -1,3 +1,7 @@
+import { PoliticscomponenComponent } from './politicscomponen/politicscomponen.component';
+import { BooksComponentComponent } from './books-component/books-component.component';
+import { ArtcomponentComponent } from './artcomponent/artcomponent.component';
+import { SportComponentComponent } from './sport-component/sport-component.component';
 import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
@@ -15,7 +19,11 @@ const routes: Routes =[
     { path: 'register',           component: SignupComponent },
     { path: 'landing',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
-    { path: '', redirectTo: 'home', pathMatch: 'full' }
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'sport',          component: SportComponentComponent },
+    { path:'art',  component: ArtcomponentComponent},
+    { path:'books',component: BooksComponentComponent},
+    { path: 'politics', component:PoliticscomponenComponent}
 ];
 
 @NgModule({
