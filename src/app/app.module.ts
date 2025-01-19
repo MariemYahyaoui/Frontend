@@ -19,6 +19,9 @@ import { SportComponentComponent } from './sport-component/sport-component.compo
 import { ArtcomponentComponent } from './artcomponent/artcomponent.component';
 import { BooksComponentComponent } from './books-component/books-component.component';
 import { PoliticscomponenComponent } from './politicscomponen/politicscomponen.component';
+import { CookingComponent } from './cooking/cooking.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { PoliticscomponenComponent } from './politicscomponen/politicscomponen.c
     SportComponentComponent,
     ArtcomponentComponent,
     BooksComponentComponent,
-    PoliticscomponenComponent
+    PoliticscomponenComponent,
+    CookingComponent,
+    FashionComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,

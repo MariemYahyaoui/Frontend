@@ -1,3 +1,6 @@
+import { PostComponent } from './post/post.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { CookingComponent } from './cooking/cooking.component';
 import { PoliticscomponenComponent } from './politicscomponen/politicscomponen.component';
 import { BooksComponentComponent } from './books-component/books-component.component';
 import { ArtcomponentComponent } from './artcomponent/artcomponent.component';
@@ -23,7 +26,10 @@ const routes: Routes =[
     { path: 'sport',          component: SportComponentComponent },
     { path:'art',  component: ArtcomponentComponent},
     { path:'books',component: BooksComponentComponent},
-    { path: 'politics', component:PoliticscomponenComponent}
+    { path: 'politics', component:PoliticscomponenComponent},
+    { path: 'cooking',component:CookingComponent},
+    { path: 'fashion', component:FashionComponent},
+    { path: 'post', component:PostComponent}
 ];
 
 @NgModule({
